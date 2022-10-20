@@ -58,7 +58,7 @@ function display(){
         balls[i].move();
         balls[i].overlapping();
     }
-    //requestAnimationFrame(display);
+    requestAnimationFrame(display);
 }
 display();
 
